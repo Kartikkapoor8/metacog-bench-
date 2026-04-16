@@ -149,4 +149,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-*Built in ~24 hours for the Google DeepMind × Kaggle AGI hackathon.*
+*Built over three weeks for the Google DeepMind × Kaggle AGI hackathon.*
