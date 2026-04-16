@@ -125,7 +125,7 @@ If you use this benchmark in your research:
   title  = {MetaCog-Bench: Measuring AI Self-Knowledge Through Calibrated Uncertainty},
   author = {Kartik Kapoor},
   year   = {2026},
-  url    = {https://github.com/<your-github-username>/metacog-bench},
+  url    = {https://github.com/Kartikkapoor8/metacog-bench},
   note   = {Submitted to the Measuring Progress Toward AGI Kaggle hackathon (Google DeepMind)}
 }
 ```
