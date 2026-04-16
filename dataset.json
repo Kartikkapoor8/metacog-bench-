@@ -1,0 +1,2348 @@
+{
+  "calibration": [
+    {
+      "id": "arith_001",
+      "text": "What is 91 + 24?",
+      "correct_answer": "115",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_002",
+      "text": "What is 45 + 41?",
+      "correct_answer": "86",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_003",
+      "text": "What is 27 + 23?",
+      "correct_answer": "50",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_004",
+      "text": "What is 85 + 64?",
+      "correct_answer": "149",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_005",
+      "text": "What is 13 + 21?",
+      "correct_answer": "34",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_006",
+      "text": "What is 39 + 74?",
+      "correct_answer": "113",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_007",
+      "text": "What is 81 - 35?",
+      "correct_answer": "46",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_008",
+      "text": "What is 38 - 67?",
+      "correct_answer": "-29",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_009",
+      "text": "What is 10 - 30?",
+      "correct_answer": "-20",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_010",
+      "text": "What is 53 + 45?",
+      "correct_answer": "98",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_011",
+      "text": "What is 37 + 53?",
+      "correct_answer": "90",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_012",
+      "text": "What is 21 + 58?",
+      "correct_answer": "79",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_013",
+      "text": "What is 55 - 54?",
+      "correct_answer": "1",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_014",
+      "text": "What is 15 + 68?",
+      "correct_answer": "83",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_015",
+      "text": "What is 58 - 20?",
+      "correct_answer": "38",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_016",
+      "text": "What is 90 - 89?",
+      "correct_answer": "1",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_017",
+      "text": "What is 83 + 34?",
+      "correct_answer": "117",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_018",
+      "text": "What is 15 + 94?",
+      "correct_answer": "109",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_019",
+      "text": "What is 47 + 20?",
+      "correct_answer": "67",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_020",
+      "text": "What is 22 - 58?",
+      "correct_answer": "-36",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_021",
+      "text": "What is 564 \u00d7 91?",
+      "correct_answer": "51324",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_022",
+      "text": "What is 954 \u00d7 56?",
+      "correct_answer": "53424",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_023",
+      "text": "What is 266 \u00d7 57?",
+      "correct_answer": "15162",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_024",
+      "text": "What is 463 \u00d7 36?",
+      "correct_answer": "16668",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_025",
+      "text": "What is 786 \u00d7 44?",
+      "correct_answer": "34584",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_026",
+      "text": "What is 818 \u00d7 97?",
+      "correct_answer": "79346",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_027",
+      "text": "What is 763 \u00d7 19?",
+      "correct_answer": "14497",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_028",
+      "text": "What is 723 \u00d7 91?",
+      "correct_answer": "65793",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_029",
+      "text": "What is 275 \u00d7 78?",
+      "correct_answer": "21450",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_030",
+      "text": "What is 846 \u00d7 41?",
+      "correct_answer": "34686",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_031",
+      "text": "What is 267 \u00d7 69?",
+      "correct_answer": "18423",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_032",
+      "text": "What is 488 \u00d7 44?",
+      "correct_answer": "21472",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_033",
+      "text": "What is 755 \u00d7 98?",
+      "correct_answer": "73990",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_034",
+      "text": "What is 670 \u00d7 38?",
+      "correct_answer": "25460",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_035",
+      "text": "What is 801 \u00d7 51?",
+      "correct_answer": "40851",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_036",
+      "text": "What is 963 \u00d7 17?",
+      "correct_answer": "16371",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_037",
+      "text": "What is 334 \u00d7 14?",
+      "correct_answer": "4676",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_038",
+      "text": "What is 924 \u00d7 50?",
+      "correct_answer": "46200",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_039",
+      "text": "What is 510 \u00d7 44?",
+      "correct_answer": "22440",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_040",
+      "text": "What is 167 \u00d7 37?",
+      "correct_answer": "6179",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_041",
+      "text": "What is (680 \u00d7 50) + 5?",
+      "correct_answer": "34005",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_042",
+      "text": "What is (771 \u00d7 73) + 8?",
+      "correct_answer": "56291",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_043",
+      "text": "What is (758 \u00d7 68) + 4?",
+      "correct_answer": "51548",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_044",
+      "text": "What is (371 \u00d7 27) + 5?",
+      "correct_answer": "10022",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_045",
+      "text": "What is (862 \u00d7 81) + 6?",
+      "correct_answer": "69828",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_046",
+      "text": "What is (864 \u00d7 84) + 8?",
+      "correct_answer": "72584",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_047",
+      "text": "What is (697 \u00d7 61) + 7?",
+      "correct_answer": "42524",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_048",
+      "text": "What is (324 \u00d7 27) + 9?",
+      "correct_answer": "8757",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_049",
+      "text": "What is (193 \u00d7 16) + 3?",
+      "correct_answer": "3091",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_050",
+      "text": "What is (256 \u00d7 90) + 4?",
+      "correct_answer": "23044",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_051",
+      "text": "What is (911 \u00d7 97) + 8?",
+      "correct_answer": "88375",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_052",
+      "text": "What is (710 \u00d7 18) + 8?",
+      "correct_answer": "12788",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_053",
+      "text": "What is (490 \u00d7 86) + 9?",
+      "correct_answer": "42149",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_054",
+      "text": "What is (641 \u00d7 42) + 2?",
+      "correct_answer": "26924",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_055",
+      "text": "What is (796 \u00d7 24) + 6?",
+      "correct_answer": "19110",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_056",
+      "text": "What is (887 \u00d7 92) + 7?",
+      "correct_answer": "81611",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_057",
+      "text": "What is (214 \u00d7 47) + 8?",
+      "correct_answer": "10066",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_058",
+      "text": "What is (261 \u00d7 68) + 2?",
+      "correct_answer": "17750",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_059",
+      "text": "What is (839 \u00d7 43) + 4?",
+      "correct_answer": "36081",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_060",
+      "text": "What is (619 \u00d7 23) + 6?",
+      "correct_answer": "14243",
+      "difficulty": "hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_061",
+      "text": "What is ((9317 + 723) \u00d7 35) - 4?",
+      "correct_answer": "351396",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_062",
+      "text": "What is ((7126 + 880) \u00d7 30) - 2?",
+      "correct_answer": "240178",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_063",
+      "text": "What is ((6310 + 600) \u00d7 12) - 3?",
+      "correct_answer": "82917",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_064",
+      "text": "What is ((6947 + 999) \u00d7 49) - 5?",
+      "correct_answer": "389349",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_065",
+      "text": "What is ((1949 + 346) \u00d7 82) - 3?",
+      "correct_answer": "188187",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_066",
+      "text": "What is ((2403 + 849) \u00d7 72) - 3?",
+      "correct_answer": "234141",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_067",
+      "text": "What is ((9727 + 884) \u00d7 26) - 4?",
+      "correct_answer": "275882",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_068",
+      "text": "What is ((8787 + 662) \u00d7 31) - 6?",
+      "correct_answer": "292913",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_069",
+      "text": "What is ((9645 + 993) \u00d7 87) - 8?",
+      "correct_answer": "925498",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_070",
+      "text": "What is ((4470 + 652) \u00d7 98) - 5?",
+      "correct_answer": "501951",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_071",
+      "text": "What is ((6107 + 508) \u00d7 95) - 7?",
+      "correct_answer": "628418",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_072",
+      "text": "What is ((8177 + 629) \u00d7 67) - 3?",
+      "correct_answer": "589999",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_073",
+      "text": "What is ((5061 + 330) \u00d7 18) - 7?",
+      "correct_answer": "97031",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_074",
+      "text": "What is ((1344 + 702) \u00d7 80) - 5?",
+      "correct_answer": "163675",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_075",
+      "text": "What is ((4608 + 107) \u00d7 19) - 2?",
+      "correct_answer": "89583",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_076",
+      "text": "What is ((4750 + 169) \u00d7 14) - 7?",
+      "correct_answer": "68859",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_077",
+      "text": "What is ((2160 + 626) \u00d7 40) - 6?",
+      "correct_answer": "111434",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_078",
+      "text": "What is ((8953 + 319) \u00d7 79) - 4?",
+      "correct_answer": "732484",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_079",
+      "text": "What is ((8744 + 348) \u00d7 70) - 8?",
+      "correct_answer": "636432",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_080",
+      "text": "What is ((4119 + 196) \u00d7 22) - 8?",
+      "correct_answer": "94922",
+      "difficulty": "very_hard",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_001",
+      "text": "What is the next number in this sequence: 12, 17, 22, 27, 32, ?",
+      "correct_answer": "37",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=12, step=5"
+    },
+    {
+      "id": "logic_002",
+      "text": "What is the next number in this sequence: 14, 19, 24, 29, 34, ?",
+      "correct_answer": "39",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=14, step=5"
+    },
+    {
+      "id": "logic_003",
+      "text": "What is the next number in this sequence: 2, 9, 16, 23, 30, ?",
+      "correct_answer": "37",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=2, step=7"
+    },
+    {
+      "id": "logic_004",
+      "text": "What is the next number in this sequence: 4, 6, 8, 10, 12, ?",
+      "correct_answer": "14",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=4, step=2"
+    },
+    {
+      "id": "logic_005",
+      "text": "What is the next number in this sequence: 13, 20, 27, 34, 41, ?",
+      "correct_answer": "48",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=13, step=7"
+    },
+    {
+      "id": "logic_006",
+      "text": "What is the next number in this sequence: 11, 13, 15, 17, 19, ?",
+      "correct_answer": "21",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=11, step=2"
+    },
+    {
+      "id": "logic_007",
+      "text": "What is the next number in this sequence: 8, 11, 14, 17, 20, ?",
+      "correct_answer": "23",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=8, step=3"
+    },
+    {
+      "id": "logic_008",
+      "text": "What is the next number in this sequence: 7, 13, 19, 25, 31, ?",
+      "correct_answer": "37",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=7, step=6"
+    },
+    {
+      "id": "logic_009",
+      "text": "What is the next number in this sequence: 15, 18, 21, 24, 27, ?",
+      "correct_answer": "30",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=15, step=3"
+    },
+    {
+      "id": "logic_010",
+      "text": "What is the next number in this sequence: 14, 17, 20, 23, 26, ?",
+      "correct_answer": "29",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=14, step=3"
+    },
+    {
+      "id": "logic_011",
+      "text": "What is the next number in this sequence: 4, 12, 36, 108, 324, ?",
+      "correct_answer": "972",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=4, ratio=3"
+    },
+    {
+      "id": "logic_012",
+      "text": "What is the next number in this sequence: 3, 6, 12, 24, 48, ?",
+      "correct_answer": "96",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=3, ratio=2"
+    },
+    {
+      "id": "logic_013",
+      "text": "What is the next number in this sequence: 5, 20, 80, 320, 1280, ?",
+      "correct_answer": "5120",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=5, ratio=4"
+    },
+    {
+      "id": "logic_014",
+      "text": "What is the next number in this sequence: 2, 4, 8, 16, 32, ?",
+      "correct_answer": "64",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=2, ratio=2"
+    },
+    {
+      "id": "logic_015",
+      "text": "What is the next number in this sequence: 2, 4, 8, 16, 32, ?",
+      "correct_answer": "64",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=2, ratio=2"
+    },
+    {
+      "id": "logic_016",
+      "text": "What is the next number in this sequence: 3, 6, 12, 24, 48, ?",
+      "correct_answer": "96",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=3, ratio=2"
+    },
+    {
+      "id": "logic_017",
+      "text": "What is the next number in this sequence: 5, 15, 45, 135, 405, ?",
+      "correct_answer": "1215",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=5, ratio=3"
+    },
+    {
+      "id": "logic_018",
+      "text": "What is the next number in this sequence: 5, 10, 20, 40, 80, ?",
+      "correct_answer": "160",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=5, ratio=2"
+    },
+    {
+      "id": "logic_019",
+      "text": "What is the next number in this sequence: 5, 10, 20, 40, 80, ?",
+      "correct_answer": "160",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=5, ratio=2"
+    },
+    {
+      "id": "logic_020",
+      "text": "What is the next number in this sequence: 3, 9, 27, 81, 243, ?",
+      "correct_answer": "729",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=3, ratio=3"
+    },
+    {
+      "id": "logic_021",
+      "text": "What is 51 mod 19?",
+      "correct_answer": "13",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_022",
+      "text": "What is 185 mod 21?",
+      "correct_answer": "17",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_023",
+      "text": "What is 196 mod 20?",
+      "correct_answer": "16",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_024",
+      "text": "What is 406 mod 22?",
+      "correct_answer": "10",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_025",
+      "text": "What is 129 mod 13?",
+      "correct_answer": "12",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_026",
+      "text": "What is 201 mod 13?",
+      "correct_answer": "6",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_027",
+      "text": "What is 79 mod 8?",
+      "correct_answer": "7",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_028",
+      "text": "What is 432 mod 17?",
+      "correct_answer": "7",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_029",
+      "text": "What is 79 mod 8?",
+      "correct_answer": "7",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_030",
+      "text": "What is 349 mod 22?",
+      "correct_answer": "19",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_031",
+      "text": "In a custom number system, the operator \u25c6 is defined so that x \u25c6 y = (x \u00d7 y) + (x \u2212 y). For example, 4 \u25c6 19 = 61. What is 5 \u25c6 8?",
+      "correct_answer": "37",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Rule: x \u25c6 y = (x*y)+(x-y). 5 \u25c6 8 = (5*8)+(5-8) = 37"
+    },
+    {
+      "id": "logic_032",
+      "text": "In a custom number system, the operator \u2605 is defined so that x \u2605 y = (x \u00d7 y) + (x \u2212 y). For example, 5 \u2605 10 = 45. What is 15 \u2605 6?",
+      "correct_answer": "99",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Rule: x \u2605 y = (x*y)+(x-y). 15 \u2605 6 = (15*6)+(15-6) = 99"
+    },
+    {
+      "id": "logic_033",
+      "text": "In a custom number system, the operator \u25c6 is defined so that x \u25c6 y = (x \u00d7 y) + (x \u2212 y). For example, 4 \u25c6 5 = 19. What is 16 \u25c6 19?",
+      "correct_answer": "301",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Rule: x \u25c6 y = (x*y)+(x-y). 16 \u25c6 19 = (16*19)+(16-19) = 301"
+    },
+    {
+      "id": "logic_034",
+      "text": "In a custom number system, the operator \u25b2 is defined so that x \u25b2 y = (x \u00d7 y) + (x \u2212 y). For example, 11 \u25b2 9 = 101. What is 13 \u25b2 10?",
+      "correct_answer": "133",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Rule: x \u25b2 y = (x*y)+(x-y). 13 \u25b2 10 = (13*10)+(13-10) = 133"
+    },
+    {
+      "id": "logic_035",
+      "text": "In a custom number system, the operator \u25b2 is defined so that x \u25b2 y = (x \u00d7 y) + (x \u2212 y). For example, 15 \u25b2 7 = 113. What is 12 \u25b2 17?",
+      "correct_answer": "199",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Rule: x \u25b2 y = (x*y)+(x-y). 12 \u25b2 17 = (12*17)+(12-17) = 199"
+    },
+    {
+      "id": "logic_036",
+      "text": "In a custom number system, the operator \u25b2 is defined so that x \u25b2 y = (x \u00d7 y) + (x \u2212 y). For example, 5 \u25b2 3 = 17. What is 17 \u25b2 6?",
+      "correct_answer": "113",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Rule: x \u25b2 y = (x*y)+(x-y). 17 \u25b2 6 = (17*6)+(17-6) = 113"
+    },
+    {
+      "id": "logic_037",
+      "text": "In a custom number system, the operator \u2605 is defined so that x \u2605 y = (x \u00d7 y) + (x \u2212 y). For example, 20 \u2605 9 = 191. What is 19 \u2605 11?",
+      "correct_answer": "217",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Rule: x \u2605 y = (x*y)+(x-y). 19 \u2605 11 = (19*11)+(19-11) = 217"
+    },
+    {
+      "id": "logic_038",
+      "text": "In a custom number system, the operator \u25c6 is defined so that x \u25c6 y = (x \u00d7 y) + (x \u2212 y). For example, 14 \u25c6 5 = 79. What is 10 \u25c6 14?",
+      "correct_answer": "136",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Rule: x \u25c6 y = (x*y)+(x-y). 10 \u25c6 14 = (10*14)+(10-14) = 136"
+    },
+    {
+      "id": "logic_039",
+      "text": "In a custom number system, the operator \u25b2 is defined so that x \u25b2 y = (x \u00d7 y) + (x \u2212 y). For example, 8 \u25b2 17 = 127. What is 20 \u25b2 12?",
+      "correct_answer": "248",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Rule: x \u25b2 y = (x*y)+(x-y). 20 \u25b2 12 = (20*12)+(20-12) = 248"
+    },
+    {
+      "id": "logic_040",
+      "text": "In a custom number system, the operator \u2605 is defined so that x \u2605 y = (x \u00d7 y) + (x \u2212 y). For example, 20 \u2605 12 = 248. What is 6 \u2605 7?",
+      "correct_answer": "41",
+      "difficulty": "hard",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Rule: x \u2605 y = (x*y)+(x-y). 6 \u2605 7 = (6*7)+(6-7) = 41"
+    }
+  ],
+  "answerability": [
+    {
+      "id": "arith_001",
+      "text": "What is 91 + 24?",
+      "correct_answer": "115",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_002",
+      "text": "What is 45 + 41?",
+      "correct_answer": "86",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_003",
+      "text": "What is 27 + 23?",
+      "correct_answer": "50",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_004",
+      "text": "What is 85 + 64?",
+      "correct_answer": "149",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_005",
+      "text": "What is 13 + 21?",
+      "correct_answer": "34",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_006",
+      "text": "What is 39 + 74?",
+      "correct_answer": "113",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_007",
+      "text": "What is 81 - 35?",
+      "correct_answer": "46",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_008",
+      "text": "What is 38 - 67?",
+      "correct_answer": "-29",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_009",
+      "text": "What is 10 - 30?",
+      "correct_answer": "-20",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_010",
+      "text": "What is 53 + 45?",
+      "correct_answer": "98",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_011",
+      "text": "What is 37 + 53?",
+      "correct_answer": "90",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_012",
+      "text": "What is 21 + 58?",
+      "correct_answer": "79",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_013",
+      "text": "What is 55 - 54?",
+      "correct_answer": "1",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_014",
+      "text": "What is 15 + 68?",
+      "correct_answer": "83",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_015",
+      "text": "What is 58 - 20?",
+      "correct_answer": "38",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_016",
+      "text": "What is 90 - 89?",
+      "correct_answer": "1",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_017",
+      "text": "What is 83 + 34?",
+      "correct_answer": "117",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_018",
+      "text": "What is 15 + 94?",
+      "correct_answer": "109",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_019",
+      "text": "What is 47 + 20?",
+      "correct_answer": "67",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_020",
+      "text": "What is 22 - 58?",
+      "correct_answer": "-36",
+      "difficulty": "easy",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_021",
+      "text": "What is 564 \u00d7 91?",
+      "correct_answer": "51324",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_022",
+      "text": "What is 954 \u00d7 56?",
+      "correct_answer": "53424",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_023",
+      "text": "What is 266 \u00d7 57?",
+      "correct_answer": "15162",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_024",
+      "text": "What is 463 \u00d7 36?",
+      "correct_answer": "16668",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_025",
+      "text": "What is 786 \u00d7 44?",
+      "correct_answer": "34584",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_026",
+      "text": "What is 818 \u00d7 97?",
+      "correct_answer": "79346",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_027",
+      "text": "What is 763 \u00d7 19?",
+      "correct_answer": "14497",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_028",
+      "text": "What is 723 \u00d7 91?",
+      "correct_answer": "65793",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_029",
+      "text": "What is 275 \u00d7 78?",
+      "correct_answer": "21450",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_030",
+      "text": "What is 846 \u00d7 41?",
+      "correct_answer": "34686",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_031",
+      "text": "What is 267 \u00d7 69?",
+      "correct_answer": "18423",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_032",
+      "text": "What is 488 \u00d7 44?",
+      "correct_answer": "21472",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_033",
+      "text": "What is 755 \u00d7 98?",
+      "correct_answer": "73990",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_034",
+      "text": "What is 670 \u00d7 38?",
+      "correct_answer": "25460",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_035",
+      "text": "What is 801 \u00d7 51?",
+      "correct_answer": "40851",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_036",
+      "text": "What is 963 \u00d7 17?",
+      "correct_answer": "16371",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_037",
+      "text": "What is 334 \u00d7 14?",
+      "correct_answer": "4676",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_038",
+      "text": "What is 924 \u00d7 50?",
+      "correct_answer": "46200",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_039",
+      "text": "What is 510 \u00d7 44?",
+      "correct_answer": "22440",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "arith_040",
+      "text": "What is 167 \u00d7 37?",
+      "correct_answer": "6179",
+      "difficulty": "medium",
+      "category": "arithmetic",
+      "answerable": true,
+      "explanation": ""
+    },
+    {
+      "id": "logic_001",
+      "text": "What is the next number in this sequence: 12, 17, 22, 27, 32, ?",
+      "correct_answer": "37",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=12, step=5"
+    },
+    {
+      "id": "logic_002",
+      "text": "What is the next number in this sequence: 14, 19, 24, 29, 34, ?",
+      "correct_answer": "39",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=14, step=5"
+    },
+    {
+      "id": "logic_003",
+      "text": "What is the next number in this sequence: 2, 9, 16, 23, 30, ?",
+      "correct_answer": "37",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=2, step=7"
+    },
+    {
+      "id": "logic_004",
+      "text": "What is the next number in this sequence: 4, 6, 8, 10, 12, ?",
+      "correct_answer": "14",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=4, step=2"
+    },
+    {
+      "id": "logic_005",
+      "text": "What is the next number in this sequence: 13, 20, 27, 34, 41, ?",
+      "correct_answer": "48",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=13, step=7"
+    },
+    {
+      "id": "logic_006",
+      "text": "What is the next number in this sequence: 11, 13, 15, 17, 19, ?",
+      "correct_answer": "21",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=11, step=2"
+    },
+    {
+      "id": "logic_007",
+      "text": "What is the next number in this sequence: 8, 11, 14, 17, 20, ?",
+      "correct_answer": "23",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=8, step=3"
+    },
+    {
+      "id": "logic_008",
+      "text": "What is the next number in this sequence: 7, 13, 19, 25, 31, ?",
+      "correct_answer": "37",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=7, step=6"
+    },
+    {
+      "id": "logic_009",
+      "text": "What is the next number in this sequence: 15, 18, 21, 24, 27, ?",
+      "correct_answer": "30",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=15, step=3"
+    },
+    {
+      "id": "logic_010",
+      "text": "What is the next number in this sequence: 14, 17, 20, 23, 26, ?",
+      "correct_answer": "29",
+      "difficulty": "easy",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Arithmetic sequence with start=14, step=3"
+    },
+    {
+      "id": "logic_011",
+      "text": "What is the next number in this sequence: 4, 12, 36, 108, 324, ?",
+      "correct_answer": "972",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=4, ratio=3"
+    },
+    {
+      "id": "logic_012",
+      "text": "What is the next number in this sequence: 3, 6, 12, 24, 48, ?",
+      "correct_answer": "96",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=3, ratio=2"
+    },
+    {
+      "id": "logic_013",
+      "text": "What is the next number in this sequence: 5, 20, 80, 320, 1280, ?",
+      "correct_answer": "5120",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=5, ratio=4"
+    },
+    {
+      "id": "logic_014",
+      "text": "What is the next number in this sequence: 2, 4, 8, 16, 32, ?",
+      "correct_answer": "64",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=2, ratio=2"
+    },
+    {
+      "id": "logic_015",
+      "text": "What is the next number in this sequence: 2, 4, 8, 16, 32, ?",
+      "correct_answer": "64",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=2, ratio=2"
+    },
+    {
+      "id": "logic_016",
+      "text": "What is the next number in this sequence: 3, 6, 12, 24, 48, ?",
+      "correct_answer": "96",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=3, ratio=2"
+    },
+    {
+      "id": "logic_017",
+      "text": "What is the next number in this sequence: 5, 15, 45, 135, 405, ?",
+      "correct_answer": "1215",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=5, ratio=3"
+    },
+    {
+      "id": "logic_018",
+      "text": "What is the next number in this sequence: 5, 10, 20, 40, 80, ?",
+      "correct_answer": "160",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=5, ratio=2"
+    },
+    {
+      "id": "logic_019",
+      "text": "What is the next number in this sequence: 5, 10, 20, 40, 80, ?",
+      "correct_answer": "160",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=5, ratio=2"
+    },
+    {
+      "id": "logic_020",
+      "text": "What is the next number in this sequence: 3, 9, 27, 81, 243, ?",
+      "correct_answer": "729",
+      "difficulty": "medium",
+      "category": "logic",
+      "answerable": true,
+      "explanation": "Geometric sequence with start=3, ratio=3"
+    },
+    {
+      "id": "unans_001",
+      "text": "What is the current population of Veltharion, the small nation in South Pacific?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Veltharion is a fabricated country that does not exist."
+    },
+    {
+      "id": "unans_002",
+      "text": "Who was the first president of Veltharion?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Veltharion is a fabricated country that does not exist."
+    },
+    {
+      "id": "unans_003",
+      "text": "What is the current population of Krandosia, the small nation in Central Asia?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Krandosia is a fabricated country that does not exist."
+    },
+    {
+      "id": "unans_004",
+      "text": "Who was the first president of Krandosia?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Krandosia is a fabricated country that does not exist."
+    },
+    {
+      "id": "unans_005",
+      "text": "What is the current population of Melvithra, the small nation in Northern Europe?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Melvithra is a fabricated country that does not exist."
+    },
+    {
+      "id": "unans_006",
+      "text": "Who was the first president of Melvithra?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Melvithra is a fabricated country that does not exist."
+    },
+    {
+      "id": "unans_007",
+      "text": "What is the current population of Toravek, the small nation in West Africa?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Toravek is a fabricated country that does not exist."
+    },
+    {
+      "id": "unans_008",
+      "text": "Who was the first president of Toravek?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Toravek is a fabricated country that does not exist."
+    },
+    {
+      "id": "unans_009",
+      "text": "What is the current population of Phaelundra, the small nation in South America?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Phaelundra is a fabricated country that does not exist."
+    },
+    {
+      "id": "unans_010",
+      "text": "Who was the first president of Phaelundra?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Phaelundra is a fabricated country that does not exist."
+    },
+    {
+      "id": "unans_011",
+      "text": "What was the global average temperature in 2035?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The year 2035 has not occurred yet."
+    },
+    {
+      "id": "unans_012",
+      "text": "What was the global average temperature in 2040?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The year 2040 has not occurred yet."
+    },
+    {
+      "id": "unans_013",
+      "text": "What was the global average temperature in 2050?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The year 2050 has not occurred yet."
+    },
+    {
+      "id": "unans_014",
+      "text": "What was the global average temperature in 2045?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The year 2045 has not occurred yet."
+    },
+    {
+      "id": "unans_015",
+      "text": "What color is the invisible red ball?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Self-contradictory question."
+    },
+    {
+      "id": "unans_016",
+      "text": "How many sides does a circular triangle have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Self-contradictory question."
+    },
+    {
+      "id": "unans_017",
+      "text": "What is the weight of a massless 5kg object?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Self-contradictory question."
+    },
+    {
+      "id": "unans_018",
+      "text": "At what time does the event that never happens begin?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Self-contradictory question."
+    },
+    {
+      "id": "unans_019",
+      "text": "What is the name of the unnamed theorem?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "impossible",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "Self-contradictory question."
+    },
+    {
+      "id": "unans_020",
+      "text": "Alice has 43 apples and Bob has some oranges. Charlie has 24 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_021",
+      "text": "Alice has 23 apples and Bob has some oranges. Charlie has 80 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_022",
+      "text": "Alice has 29 apples and Bob has some oranges. Charlie has 44 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_023",
+      "text": "Alice has 46 apples and Bob has some oranges. Charlie has 87 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_024",
+      "text": "Alice has 36 apples and Bob has some oranges. Charlie has 53 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_025",
+      "text": "Alice has 36 apples and Bob has some oranges. Charlie has 97 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_026",
+      "text": "Alice has 91 apples and Bob has some oranges. Charlie has 43 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_027",
+      "text": "Alice has 74 apples and Bob has some oranges. Charlie has 72 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_028",
+      "text": "Alice has 42 apples and Bob has some oranges. Charlie has 16 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_029",
+      "text": "Alice has 21 apples and Bob has some oranges. Charlie has 91 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_030",
+      "text": "Alice has 64 apples and Bob has some oranges. Charlie has 45 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_031",
+      "text": "Alice has 15 apples and Bob has some oranges. Charlie has 10 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_032",
+      "text": "Alice has 52 apples and Bob has some oranges. Charlie has 26 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_033",
+      "text": "Alice has 91 apples and Bob has some oranges. Charlie has 43 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_034",
+      "text": "Alice has 30 apples and Bob has some oranges. Charlie has 66 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_035",
+      "text": "Alice has 80 apples and Bob has some oranges. Charlie has 100 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_036",
+      "text": "Alice has 64 apples and Bob has some oranges. Charlie has 81 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_037",
+      "text": "Alice has 11 apples and Bob has some oranges. Charlie has 24 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_038",
+      "text": "Alice has 19 apples and Bob has some oranges. Charlie has 98 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_039",
+      "text": "Alice has 29 apples and Bob has some oranges. Charlie has 79 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    },
+    {
+      "id": "unans_040",
+      "text": "Alice has 14 apples and Bob has some oranges. Charlie has 57 bananas. How many oranges does Bob have?",
+      "correct_answer": "UNANSWERABLE",
+      "difficulty": "hard",
+      "category": "unanswerable",
+      "answerable": false,
+      "explanation": "The number of Bob's oranges is never specified."
+    }
+  ],
+  "error_detection": [
+    {
+      "id": "errdet_001",
+      "question": "What is 696 \u00d7 80?",
+      "presented_answer": "55418",
+      "has_error": true,
+      "correct_answer": "55680",
+      "a": 696,
+      "b": 80
+    },
+    {
+      "id": "errdet_002",
+      "question": "What is 415 \u00d7 56?",
+      "presented_answer": "23240",
+      "has_error": false,
+      "correct_answer": "23240",
+      "a": 415,
+      "b": 56
+    },
+    {
+      "id": "errdet_003",
+      "question": "What is 915 \u00d7 15?",
+      "presented_answer": "13725",
+      "has_error": false,
+      "correct_answer": "13725",
+      "a": 915,
+      "b": 15
+    },
+    {
+      "id": "errdet_004",
+      "question": "What is 315 \u00d7 97?",
+      "presented_answer": "30661",
+      "has_error": true,
+      "correct_answer": "30555",
+      "a": 315,
+      "b": 97
+    },
+    {
+      "id": "errdet_005",
+      "question": "What is 898 \u00d7 81?",
+      "presented_answer": "72738",
+      "has_error": false,
+      "correct_answer": "72738",
+      "a": 898,
+      "b": 81
+    },
+    {
+      "id": "errdet_006",
+      "question": "What is 516 \u00d7 89?",
+      "presented_answer": "45924",
+      "has_error": false,
+      "correct_answer": "45924",
+      "a": 516,
+      "b": 89
+    },
+    {
+      "id": "errdet_007",
+      "question": "What is 342 \u00d7 30?",
+      "presented_answer": "10260",
+      "has_error": false,
+      "correct_answer": "10260",
+      "a": 342,
+      "b": 30
+    },
+    {
+      "id": "errdet_008",
+      "question": "What is 930 \u00d7 32?",
+      "presented_answer": "29760",
+      "has_error": false,
+      "correct_answer": "29760",
+      "a": 930,
+      "b": 32
+    },
+    {
+      "id": "errdet_009",
+      "question": "What is 125 \u00d7 32?",
+      "presented_answer": "4000",
+      "has_error": false,
+      "correct_answer": "4000",
+      "a": 125,
+      "b": 32
+    },
+    {
+      "id": "errdet_010",
+      "question": "What is 440 \u00d7 62?",
+      "presented_answer": "27280",
+      "has_error": false,
+      "correct_answer": "27280",
+      "a": 440,
+      "b": 62
+    },
+    {
+      "id": "errdet_011",
+      "question": "What is 984 \u00d7 41?",
+      "presented_answer": "39625",
+      "has_error": true,
+      "correct_answer": "40344",
+      "a": 984,
+      "b": 41
+    },
+    {
+      "id": "errdet_012",
+      "question": "What is 491 \u00d7 14?",
+      "presented_answer": "6874",
+      "has_error": false,
+      "correct_answer": "6874",
+      "a": 491,
+      "b": 14
+    },
+    {
+      "id": "errdet_013",
+      "question": "What is 327 \u00d7 35?",
+      "presented_answer": "11445",
+      "has_error": false,
+      "correct_answer": "11445",
+      "a": 327,
+      "b": 35
+    },
+    {
+      "id": "errdet_014",
+      "question": "What is 571 \u00d7 54?",
+      "presented_answer": "30600",
+      "has_error": true,
+      "correct_answer": "30834",
+      "a": 571,
+      "b": 54
+    },
+    {
+      "id": "errdet_015",
+      "question": "What is 124 \u00d7 94?",
+      "presented_answer": "11741",
+      "has_error": true,
+      "correct_answer": "11656",
+      "a": 124,
+      "b": 94
+    },
+    {
+      "id": "errdet_016",
+      "question": "What is 985 \u00d7 18?",
+      "presented_answer": "17730",
+      "has_error": false,
+      "correct_answer": "17730",
+      "a": 985,
+      "b": 18
+    },
+    {
+      "id": "errdet_017",
+      "question": "What is 385 \u00d7 54?",
+      "presented_answer": "20790",
+      "has_error": false,
+      "correct_answer": "20790",
+      "a": 385,
+      "b": 54
+    },
+    {
+      "id": "errdet_018",
+      "question": "What is 509 \u00d7 96?",
+      "presented_answer": "48864",
+      "has_error": false,
+      "correct_answer": "48864",
+      "a": 509,
+      "b": 96
+    },
+    {
+      "id": "errdet_019",
+      "question": "What is 649 \u00d7 52?",
+      "presented_answer": "33748",
+      "has_error": false,
+      "correct_answer": "33748",
+      "a": 649,
+      "b": 52
+    },
+    {
+      "id": "errdet_020",
+      "question": "What is 218 \u00d7 43?",
+      "presented_answer": "9306",
+      "has_error": true,
+      "correct_answer": "9374",
+      "a": 218,
+      "b": 43
+    },
+    {
+      "id": "errdet_021",
+      "question": "What is 211 \u00d7 86?",
+      "presented_answer": "18307",
+      "has_error": true,
+      "correct_answer": "18146",
+      "a": 211,
+      "b": 86
+    },
+    {
+      "id": "errdet_022",
+      "question": "What is 720 \u00d7 75?",
+      "presented_answer": "54390",
+      "has_error": true,
+      "correct_answer": "54000",
+      "a": 720,
+      "b": 75
+    },
+    {
+      "id": "errdet_023",
+      "question": "What is 145 \u00d7 65?",
+      "presented_answer": "9287",
+      "has_error": true,
+      "correct_answer": "9425",
+      "a": 145,
+      "b": 65
+    },
+    {
+      "id": "errdet_024",
+      "question": "What is 472 \u00d7 65?",
+      "presented_answer": "31019",
+      "has_error": true,
+      "correct_answer": "30680",
+      "a": 472,
+      "b": 65
+    },
+    {
+      "id": "errdet_025",
+      "question": "What is 779 \u00d7 25?",
+      "presented_answer": "19475",
+      "has_error": false,
+      "correct_answer": "19475",
+      "a": 779,
+      "b": 25
+    },
+    {
+      "id": "errdet_026",
+      "question": "What is 407 \u00d7 74?",
+      "presented_answer": "30537",
+      "has_error": true,
+      "correct_answer": "30118",
+      "a": 407,
+      "b": 74
+    },
+    {
+      "id": "errdet_027",
+      "question": "What is 512 \u00d7 99?",
+      "presented_answer": "50557",
+      "has_error": true,
+      "correct_answer": "50688",
+      "a": 512,
+      "b": 99
+    },
+    {
+      "id": "errdet_028",
+      "question": "What is 530 \u00d7 95?",
+      "presented_answer": "50350",
+      "has_error": false,
+      "correct_answer": "50350",
+      "a": 530,
+      "b": 95
+    },
+    {
+      "id": "errdet_029",
+      "question": "What is 793 \u00d7 32?",
+      "presented_answer": "25376",
+      "has_error": false,
+      "correct_answer": "25376",
+      "a": 793,
+      "b": 32
+    },
+    {
+      "id": "errdet_030",
+      "question": "What is 408 \u00d7 61?",
+      "presented_answer": "24888",
+      "has_error": false,
+      "correct_answer": "24888",
+      "a": 408,
+      "b": 61
+    },
+    {
+      "id": "errdet_031",
+      "question": "What is 100 \u00d7 48?",
+      "presented_answer": "4856",
+      "has_error": true,
+      "correct_answer": "4800",
+      "a": 100,
+      "b": 48
+    },
+    {
+      "id": "errdet_032",
+      "question": "What is 576 \u00d7 66?",
+      "presented_answer": "38235",
+      "has_error": true,
+      "correct_answer": "38016",
+      "a": 576,
+      "b": 66
+    },
+    {
+      "id": "errdet_033",
+      "question": "What is 912 \u00d7 31?",
+      "presented_answer": "28272",
+      "has_error": false,
+      "correct_answer": "28272",
+      "a": 912,
+      "b": 31
+    },
+    {
+      "id": "errdet_034",
+      "question": "What is 390 \u00d7 75?",
+      "presented_answer": "29250",
+      "has_error": false,
+      "correct_answer": "29250",
+      "a": 390,
+      "b": 75
+    },
+    {
+      "id": "errdet_035",
+      "question": "What is 734 \u00d7 52?",
+      "presented_answer": "38409",
+      "has_error": true,
+      "correct_answer": "38168",
+      "a": 734,
+      "b": 52
+    },
+    {
+      "id": "errdet_036",
+      "question": "What is 330 \u00d7 35?",
+      "presented_answer": "11538",
+      "has_error": true,
+      "correct_answer": "11550",
+      "a": 330,
+      "b": 35
+    },
+    {
+      "id": "errdet_037",
+      "question": "What is 586 \u00d7 88?",
+      "presented_answer": "51568",
+      "has_error": false,
+      "correct_answer": "51568",
+      "a": 586,
+      "b": 88
+    },
+    {
+      "id": "errdet_038",
+      "question": "What is 174 \u00d7 68?",
+      "presented_answer": "11670",
+      "has_error": true,
+      "correct_answer": "11832",
+      "a": 174,
+      "b": 68
+    },
+    {
+      "id": "errdet_039",
+      "question": "What is 835 \u00d7 99?",
+      "presented_answer": "81846",
+      "has_error": true,
+      "correct_answer": "82665",
+      "a": 835,
+      "b": 99
+    },
+    {
+      "id": "errdet_040",
+      "question": "What is 251 \u00d7 93?",
+      "presented_answer": "23343",
+      "has_error": false,
+      "correct_answer": "23343",
+      "a": 251,
+      "b": 93
+    }
+  ]
+}
