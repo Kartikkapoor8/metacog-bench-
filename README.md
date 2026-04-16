@@ -1,132 +1,123 @@
 # MetaCog-Bench
 
-> **Does it know what it knows?**
-> A benchmark for measuring AI self-knowledge — confidence calibration, confabulation detection, and error self-monitoring.
+> **Models know a lot. They don't know what they don't know.**
+> MetaCog-Bench measures that gap — confidence calibration, confabulation, and error self-monitoring, isolated in one benchmark.
 
 ![Cover](cover.png)
 
-Built for the [**Measuring Progress Toward AGI — Cognitive Abilities**](https://www.kaggle.com/competitions/kaggle-measuring-agi) hackathon hosted by **Google DeepMind × Kaggle** (April 2026).
+Submitted to the [**Google DeepMind × Kaggle — Measuring Progress Toward AGI: Cognitive Abilities**](https://www.kaggle.com/competitions/kaggle-measuring-agi) hackathon · **Metacognition track** · April 2026.
 
-**Track:** Metacognition
-**Author:** Kartik Kapoor
+**Author:** [Kartik Kapoor](https://github.com/Kartikkapoor8)
 
 ---
 
-## The Problem
+## The gap this closes
 
-Current AI benchmarks measure *what* models know. They don't measure whether models know *what they know*. A model that confidently answers every question — regardless of whether it actually knows the answer — is fundamentally unreliable.
+Standard benchmarks measure whether a model gets the answer right. They don't measure whether the model knows when it's wrong. A model that answers every question with 95% confidence — including the ones it just hallucinated — passes accuracy tests and fails in deployment.
 
-MetaCog-Bench quantifies three metacognitive deficits that standard evaluations miss:
+MetaCog-Bench isolates three metacognitive failure modes that accuracy-only evaluations can't see:
 
-| Deficit | What it looks like |
+| Failure mode | What it looks like in the wild |
 |---|---|
-| **Overconfidence** | High-confidence wrong answers → confidence signals become useless |
-| **Confabulation blindness** | Fabricating answers to impossible questions rather than refusing |
-| **Verification failure** | Inability to spot errors in presented solutions |
+| **Overconfidence** | High-confidence wrong answers → confidence signal becomes decorative |
+| **Confabulation** | Inventing answers to unanswerable questions instead of abstaining |
+| **Verification failure** | Can't spot errors in solutions even when shown them directly |
 
 ---
 
-## What It Measures
+## What it measures
 
-Three subtasks, one composite score (0 → 1):
+Three subtasks, one composite MetaCognition Score (0 → 1):
 
 ### 1. Confidence Calibration (40%)
+Model answers procedurally-generated math and rates its confidence `0–100` per item. We compute **Expected Calibration Error (ECE)** over 10 confidence bins.
 
-The model answers procedurally generated math questions and rates its confidence `0–100`. We compute **Expected Calibration Error (ECE)** — the gap between stated confidence and actual accuracy across 10 confidence bins.
-
-- Score = `1 − ECE` (higher = better)
-- A perfectly calibrated model scores **1.0**
+- Score = `1 − ECE`. Perfect calibration = **1.0**.
+- Four difficulty tiers (easy → very hard) — we check whether calibration degrades with difficulty.
 
 ### 2. Answerability Detection (35%)
+Mix of answerable math and unanswerable questions (fabricated countries, self-contradictions, future events). Model must classify each *before* attempting an answer.
 
-Mix of answerable math and *unanswerable* questions (fabricated countries, self-contradictions, future events). Can the model tell the difference?
-
-- Measures **classification accuracy**, sensitivity, specificity
-- False positive rate = **confabulation rate**
+- Metric: classification accuracy.
+- False-positive rate = **confabulation rate**.
 
 ### 3. Error Self-Detection (25%)
+50% of presented arithmetic solutions contain planted errors. Can the model catch them?
 
-50% of presented arithmetic solutions contain planted errors. Can the model spot them?
-
-- Measures verification ability — a core metacognitive monitoring skill
-
----
-
-## Why Procedural Generation
-
-Every question is generated from a **fixed random seed (42)**. No items are drawn from any existing benchmark, knowledge base, or training corpus. Fabricated entities (`Veltharion`, `Krandosia`, custom operators) cannot exist in training data.
-
-**Contamination is impossible by construction.**
+- Measures verification ability — the metacognitive monitoring skill.
 
 ---
 
-## Quick Start
+## Results
 
-### Run locally (without Kaggle SDK)
+Preliminary runs on the Kaggle Benchmarks platform show a clear performance gradient across model tiers and reveal two robust patterns:
 
+1. **Confidence is sticky.** Models rarely drop below ~75% stated confidence, even on very-hard problems they get wrong — the confidence distribution is left-skewed regardless of accuracy.
+2. **Confabulation dominates abstention.** On unanswerable items, models attempt fabricated answers significantly more often than they refuse.
+
+The benchmark is designed to be **discriminative** — the composite score produces a gradient rather than saturating at 0 or 1 — which is the property the competition explicitly asks for. Live leaderboard and per-model scores publish after the hackathon submission deadline at `kaggle.com/benchmarks/kartikkapoor08/metacog-bench`.
+
+---
+
+## Contamination safety
+
+Every question is generated procedurally from a fixed random seed (`SEED = 42`). No item is drawn from an existing benchmark, corpus, or knowledge base. Fabricated entities (`Veltharion`, `Krandosia`, custom operator systems) cannot exist in training data by construction.
+
+**Memorization is impossible — the test set is synthesized at eval time.**
+
+---
+
+## Quick start
+
+### Run the benchmark on Kaggle
+1. Upload `metacog_bench.ipynb` to Kaggle Notebooks.
+2. Enable **Internet** in the notebook settings.
+3. Run the install cell, then **Restart kernel & run all** (protobuf fix).
+4. The benchmark publishes to `kaggle.com/benchmarks/<your-user>/metacog-bench`.
+
+### Regenerate the dataset locally
 ```bash
-# Install dependencies
 pip install pydantic pillow
-
-# Generate the dataset
-python dataset.py
-
-# Generate the cover art
-python make_cover.py
+python dataset.py        # writes dataset.json
+python make_cover.py     # writes cover.png
 ```
 
-### Run on Kaggle (full benchmark)
-
-1. Upload `metacog_bench.ipynb` to a Kaggle Notebook
-2. Enable **Internet** in the notebook settings
-3. **Run All** → wait for the SDK install cell
-4. **Restart kernel & run all** (protobuf fix)
-5. The benchmark registers automatically at `kaggle.com/benchmarks/<you>/metacog-bench`
-
 ---
 
-## Project Structure
+## Project layout
 
 ```
 metacog-bench/
-├── README.md              # You are here
+├── README.md              # you are here
 ├── LICENSE                # MIT
-├── writeup.md             # Competition writeup (1,072 words)
-├── metacog_bench.ipynb    # Main Kaggle notebook — builds + runs benchmark
-├── dataset.py             # Standalone dataset generator
-├── dataset.json           # Pre-generated evaluation data (260 items)
-├── make_cover.py          # Generates cover.png
-└── cover.png              # Cover art (1280x720)
+├── writeup.md             # 1,072-word competition writeup
+├── metacog_bench.ipynb    # Kaggle notebook — builds and runs the benchmark
+├── dataset.py             # procedural dataset generator
+├── dataset.json           # pre-generated 260-item evaluation set
+├── make_cover.py          # PIL script for cover art
+└── cover.png              # 1280×720 cover
 ```
 
 ---
 
-## The Insight
+## The thesis
 
-> A model with 90% accuracy but 0.30 ECE is less trustworthy
-> than one with 85% accuracy and 0.08 ECE.
+> A model with 90% accuracy and 0.30 ECE is less trustworthy
+> than a model with 85% accuracy and 0.08 ECE.
 
-MetaCog-Bench measures **reliability**, not just accuracy. Two patterns that emerge in every model tested:
-
-1. **Systematic overconfidence** — the confidence-accuracy gap widens as questions get harder. Models don't gracefully admit uncertainty on hard problems.
-
-2. **Asymmetric errors** — models confabulate far more often than they refuse to answer. The default behavior is "generate something" rather than "acknowledge the limit."
-
-These patterns are invisible on accuracy-only benchmarks.
+Accuracy-only benchmarks hide the difference. MetaCog-Bench surfaces it.
 
 ---
 
 ## Citation
 
-If you use this benchmark in your research:
-
 ```bibtex
-@misc{metacog-bench-2026,
-  title  = {MetaCog-Bench: Measuring AI Self-Knowledge Through Calibrated Uncertainty},
-  author = {Kartik Kapoor},
-  year   = {2026},
-  url    = {https://github.com/Kartikkapoor8/metacog-bench},
-  note   = {Submitted to the Measuring Progress Toward AGI Kaggle hackathon (Google DeepMind)}
+@misc{kapoor2026metacogbench,
+  title        = {MetaCog-Bench: Measuring AI Self-Knowledge Through Calibrated Uncertainty},
+  author       = {Kapoor, Kartik},
+  year         = {2026},
+  howpublished = {Google DeepMind × Kaggle — Measuring Progress Toward AGI (Metacognition track)},
+  url          = {https://github.com/Kartikkapoor8/metacog-bench}
 }
 ```
 
@@ -134,19 +125,15 @@ If you use this benchmark in your research:
 
 ## References
 
-- Naeini, M.P. et al. (2015). *Obtaining Well Calibrated Probabilities Using Bayesian Binning.* AAAI.
+- Naeini, M.P., Cooper, G.F., Hauskrecht, M. (2015). *Obtaining Well Calibrated Probabilities Using Bayesian Binning.* AAAI.
 - Kadavath, S. et al. (2022). *Language Models (Mostly) Know What They Know.* arXiv:2207.05221.
 - Lin, S. et al. (2022). *Teaching Models to Express Their Uncertainty in Words.* TMLR.
-- Burnell, R. et al. (2023). *Rethink reporting of evaluation results in AI.* Science.
 - Guo, C. et al. (2017). *On Calibration of Modern Neural Networks.* ICML.
 - Xiong, M. et al. (2023). *Can LLMs Express Their Uncertainty?* arXiv:2306.13063.
+- Burnell, R. et al. (2023). *Rethink reporting of evaluation results in AI.* Science.
 
 ---
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
-
----
-
-*Built over three weeks for the Google DeepMind × Kaggle AGI hackathon.*
