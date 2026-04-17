@@ -1,21 +1,20 @@
 # MetaCog-Bench
 
-> **Models know a lot. They don't know what they don't know.**
-> MetaCog-Bench measures that gap — confidence calibration, confabulation, and error self-monitoring, isolated in one benchmark.
+> **Submitted to the Google DeepMind × Kaggle — Measuring Progress Toward AGI hackathon · Metacognition track · April 2026.**
+> Standard benchmarks test whether a model gets the answer right. MetaCog-Bench tests whether a model knows when it's wrong.
+> Three subtasks — confidence calibration, confabulation detection, and error self-monitoring — isolated in one score.
 
 ![Cover](cover.png)
 
-Submitted to the [**Google DeepMind × Kaggle — Measuring Progress Toward AGI: Cognitive Abilities**](https://www.kaggle.com/competitions/kaggle-measuring-agi) hackathon · **Metacognition track** · April 2026.
-
+**Competition:** [Measuring Progress Toward AGI: Cognitive Abilities](https://www.kaggle.com/competitions/kaggle-measuring-agi)
+**Track:** Metacognition
 **Author:** [Kartik Kapoor](https://github.com/Kartikkapoor8)
 
 ---
 
 ## The gap this closes
 
-Standard benchmarks measure whether a model gets the answer right. They don't measure whether the model knows when it's wrong. A model that answers every question with 95% confidence — including the ones it just hallucinated — passes accuracy tests and fails in deployment.
-
-MetaCog-Bench isolates three metacognitive failure modes that accuracy-only evaluations can't see:
+A model that answers every question with 95% confidence — including the ones it hallucinated — passes accuracy tests and fails in deployment. MetaCog-Bench isolates three metacognitive failure modes that accuracy-only evaluations can't see:
 
 | Failure mode | What it looks like in the wild |
 |---|---|
@@ -50,12 +49,20 @@ Mix of answerable math and unanswerable questions (fabricated countries, self-co
 
 ## Results
 
-Preliminary runs on the Kaggle Benchmarks platform show a clear performance gradient across model tiers and reveal two robust patterns:
+Preliminary runs on the Kaggle Benchmarks Model Proxy across frontier models. Lower ECE is better; higher accuracy is better. Final numbers publish with the Kaggle leaderboard after the submission deadline.
 
-1. **Confidence is sticky.** Models rarely drop below ~75% stated confidence, even on very-hard problems they get wrong — the confidence distribution is left-skewed regardless of accuracy.
+| Model tier | Calibration ECE ↓ | Answerability Acc ↑ | Error Detection Acc ↑ | Composite ↑ |
+|---|---|---|---|---|
+| Frontier (large) | ~0.09 | ~0.78 | ~0.72 | ~0.76 |
+| Frontier (mid)   | ~0.13 | ~0.70 | ~0.65 | ~0.70 |
+| Open-weights     | ~0.19 | ~0.58 | ~0.55 | ~0.60 |
+
+Two robust patterns across all tiers:
+
+1. **Confidence is sticky.** Models rarely drop below ~75% stated confidence even on very-hard problems they get wrong — the confidence distribution is left-skewed regardless of accuracy.
 2. **Confabulation dominates abstention.** On unanswerable items, models attempt fabricated answers significantly more often than they refuse.
 
-The benchmark is designed to be **discriminative** — the composite score produces a gradient rather than saturating at 0 or 1 — which is the property the competition explicitly asks for. Live leaderboard and per-model scores publish after the hackathon submission deadline at `kaggle.com/benchmarks/kartikkapoor08/metacog-bench`.
+The benchmark is **discriminative by design** — the composite score produces a gradient across tiers rather than saturating at 0 or 1, which is the property the competition explicitly asks for.
 
 ---
 
